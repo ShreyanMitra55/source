@@ -49,7 +49,7 @@ finally:
     me.end()
 
     for i in range(len(list_of_img)):
-        path = "/Users/shreyanmitra/Desktop/DroneProgramming/test_img/" + str(i) + ".jpg"
+        path = "../test_img/" + str(i) + ".jpg"
         cv2.imwrite(path, list_of_img[i])
     
         print("Image captured and saved.")
